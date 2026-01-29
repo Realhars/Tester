@@ -1,16 +1,1 @@
-{
-  "name": "pdf2cbt",
-  "private": true,
-  "description": "Turn PDF of questions into CBT (Computer-Based Test)",
-  "license": "AGPL-3.0-or-later",
-  "author": {
-    "name": "TheMoonVyy",
-    "email": "themoonvyy@gmail.com"
-  },
-  "type": "module",
-  "main": "./nuxt.config.ts",
-  "scripts": {
-    "postinstall": "nuxt prepare",
-    "prepare": "nuxt prepare"
-  }
-}
+{"name":"@pdf2cbt/shared","private":true,"description":"Turn PDF of questions into CBT (Computer-Based Test)","license":"AGPL-3.0-or-later","author":{"name":"TheMoonVyy","email":"themoonvyy@gmail.com"},"type":"module","main":"./nuxt.config.ts","scripts":{"postinstall":"nuxt prepare","prepare":"nuxt prepare"},"dependencies":{"@nuxt/fonts":"0.13.0","@nuxt/icon":"2.2.1","@vueuse/nuxt":"14.1.0","nuxt-echarts":"1.0.1","shadcn-nuxt":"2.4.3","nuxt-color-picker":"1.2.8","vue-sonner":"2.0.9","reka-ui":"2.7.0","lucide-vue-next":"0.563.0"},"devDependencies":{"@nuxt/eslint":"1.13.0"}}
